@@ -4,66 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/verde_fundo"
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/bt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="520dp"
-        android:text="Meu Botão"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
-
-    <Button
-        android:id="@+id/bt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="224dp"
-        android:layout_marginTop="520dp"
-        android:text="Meu Botão"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:stateListAnimator="@null"
-        android:elevation="20dp"
-        />
-
-
-    <Button
-        android:id="@+id/btn_notes2"
-        android:layout_width="311dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="632dp"
-        android:backgroundTint="#58D878"
-        android:text="BOTAO 2"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/rounded_button"
-        />
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/saibamais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="576dp"
-        android:text="TextView"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="620dp"
+        android:fontFamily="@font/carme"
+
+        android:letterSpacing="0.01"
+        android:text="Saiba mais ..."
+        android:textColor="@color/saiba_mais"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btentrar"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="552dp"
+        android:background="@drawable/button_green"
+        android:fontFamily="@font/carme"
+        android:letterSpacing="0.1"
+        android:text="Entrar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btfacaparte"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="552dp"
+        android:background="@drawable/button_alpha"
+        android:fontFamily="@font/carme"
+        android:letterSpacing="0.1"
+        android:text="Faça parte"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/cor_textbtalp"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="270dp"
-        android:layout_height="486dp"
-        app:srcCompat="@drawable/_86b6663_7e66_48ec_83c1_867bee0b5306"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:id="@+id/imgplaneta"
+        android:layout_width="258dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/planeta" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="221dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_11" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

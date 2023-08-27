@@ -8,15 +8,15 @@ import br.agk.ecomiles.R
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var bt2: Button  // Declaração da variável
+    private lateinit var btentrar: Button  // Declaração da variável
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
         setContentView(R.layout.activity_main)
 
-        bt2 = findViewById(R.id.bt2)
-        bt2.setOnClickListener {
+        btentrar = findViewById(R.id.btentrar)
+        btentrar.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
