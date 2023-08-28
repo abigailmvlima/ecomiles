@@ -138,6 +138,7 @@
         android:fontFamily="@font/carme"
         android:letterSpacing="0.1"
         android:text="Entrar"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="15sp"
         app:backgroundTint="@null"

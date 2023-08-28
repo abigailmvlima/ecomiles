@@ -2,7 +2,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 <item>
     <shape android:shape="rectangle">
-        <solid android:color="#16FFFFFF" /> <!-- Cor de fundo -->
+        <solid android:color="#0DFFFFFF" /> <!-- Cor de fundo -->
         <corners android:radius="10dp" /> <!-- Raio dos cantos -->
         <size
             android:width="294dp"
@@ -17,7 +17,7 @@
 </item>
 <item>
     <shape android:shape="rectangle">
-        <solid android:color="#2D8EAA80" /> <!-- Cor da sombra -->
+        <solid android:color="#578EAA80" /> <!-- Cor da sombra -->
         <corners android:radius="10dp" /> <!-- Raio dos cantos -->
 
     </shape>
