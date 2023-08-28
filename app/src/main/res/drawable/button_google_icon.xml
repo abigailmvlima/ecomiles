@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_google" />
+    <item
+        android:drawable="@drawable/google_symbol_1"
+        android:gravity="center_vertical|start"
+        android:left="70dp"
+        android:top="8dp" />
+</layer-list>

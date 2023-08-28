@@ -12,7 +12,7 @@
         android:layout_width="221dp"
         android:layout_height="198dp"
         android:layout_marginStart="92dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/group_11" />
@@ -97,6 +97,22 @@
 
 
     <TextView
+        android:id="@+id/linkesqsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:autoLink="web"
+        android:fontFamily="@font/carme"
+        android:letterSpacing="0.01"
+        android:linksClickable="true"
+        android:text="esqueci minha senha"
+        android:textColor="@color/link"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/rectanglesenha"
+        app:layout_constraintTop_toBottomOf="@+id/rectanglesenha" />
+
+    <TextView
         android:id="@+id/textsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -130,7 +146,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <Button
         android:id="@+id/btgoogle"
         android:layout_width="364dp"
@@ -138,10 +153,11 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="508dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/button_google"
+        android:background="@drawable/button_google_icon"
         android:fontFamily="@font/carme"
         android:letterSpacing="0.1"
         android:text="Login via Google"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@color/black"
         android:textSize="15sp"
@@ -178,7 +194,8 @@
         android:textSize="15sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autoLink="web"/>
+        android:autoLink="web"
+        android:linksClickable="true"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
