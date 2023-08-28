@@ -129,6 +129,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
     <Button
         android:id="@+id/btgoogle"
         android:layout_width="364dp"
@@ -175,11 +177,8 @@
         android:textColor="@color/link"
         android:textSize="15sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
+        app:layout_constraintTop_toTopOf="parent"
+        android:autoLink="web"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
