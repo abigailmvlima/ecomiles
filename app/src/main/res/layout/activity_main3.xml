@@ -33,10 +33,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="6dp"
         android:fontFamily="@font/carme"
         android:text="10.250 milhas"
         android:textColor="#808892"
@@ -45,11 +42,19 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <View
+        android:id="@+id/recfundo"
+        android:layout_width="413dp"
+        android:layout_height="602dp"
+        android:layout_marginTop="128dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ScrollView
-        android:layout_width="380dp"
-        android:layout_height="545dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="172dp"
+        android:layout_width="408dp"
+        android:layout_height="503dp"
+        android:layout_marginTop="156dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
@@ -59,12 +64,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <!-- Itens da lista serão adicionados dinamicamente aqui -->
         </LinearLayout>
     </ScrollView>
 
     <View
-        android:id="@+id/rectanglesenha"
+        android:id="@+id/recpes"
         android:layout_width="411dp"
         android:layout_height="88dp"
         android:layout_marginTop="68dp"
@@ -82,8 +86,10 @@
         android:paddingVertical="6dp"
         android:hint="Pesquisa"
         android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/rectanglesenha"
-        app:layout_constraintStart_toStartOf="@+id/rectanglesenha" />
+        app:layout_constraintBottom_toBottomOf="@+id/recpes"
+        app:layout_constraintStart_toStartOf="@+id/recpes"
+        android:paddingLeft="10dp"
+        />
 
     <TextView
         android:id="@+id/filtros"
