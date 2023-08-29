@@ -42,4 +42,42 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <View
+        android:id="@+id/rectanglesenha"
+        android:layout_width="411dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/verde_pesq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="371dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/button_google"
+        android:paddingVertical="6dp"
+        android:hint="Pesquisa"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/rectanglesenha"
+        app:layout_constraintStart_toStartOf="@+id/rectanglesenha" />
+
+    <TextView
+        android:id="@+id/filtros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:autoLink="web"
+        android:fontFamily="@font/carme"
+        android:letterSpacing="0.01"
+        android:linksClickable="true"
+        android:text="Filtros"
+        android:textColor="@color/link"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/searchEditText"
+        app:layout_constraintTop_toBottomOf="@+id/searchEditText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
