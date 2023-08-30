@@ -10,10 +10,9 @@
     <View
         android:id="@+id/recimg"
         android:layout_width="124dp"
-        android:layout_height="144dp"
+        android:layout_height="142dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
-        android:background="@color/cx_verde"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,8 +30,9 @@
 
     <View
         android:id="@+id/recdesc"
-        android:layout_width="271dp"
-        android:layout_height="147dp"
+        android:layout_width="276dp"
+        android:layout_height="142dp"
+        android:background="@color/cx_verde"
         app:layout_constraintStart_toEndOf="@+id/recimg"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -18,37 +18,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/group_11" />
 
-    <View
-        android:id="@+id/rectanglesenha"
-        android:layout_width="369dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="316dp"
-        android:background="@drawable/inputemailsenha"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <View
-        android:id="@+id/rectangleemail"
-        android:layout_width="369dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="396dp"
-        android:background="@drawable/inputemailsenha"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/linkesqsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="3dp"
         android:layout_marginEnd="8dp"
         android:autoLink="web"
         android:fontFamily="@font/carme"
@@ -57,23 +31,22 @@
         android:text="esqueci minha senha"
         android:textColor="@color/link"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/rectanglesenha"
-        app:layout_constraintTop_toBottomOf="@+id/rectanglesenha" />
+        app:layout_constraintEnd_toEndOf="@+id/editTextsenha"
+        app:layout_constraintTop_toBottomOf="@+id/editTextsenha" />
 
     <TextView
         android:id="@+id/textemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"
         android:fontFamily="@font/carme"
         android:letterSpacing="0.01"
         android:text="Email"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/rectangleemail"
-        app:layout_constraintTop_toTopOf="@+id/rectangleemail" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        app:layout_constraintLeft_toLeftOf="@+id/editTextEmail" />
 
     <EditText
         android:id="@+id/editTextsenha"
@@ -82,9 +55,10 @@
         android:layout_marginStart="22dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="316dp"
-        android:background="@android:color/transparent"
+        android:paddingStart="15dp"
+        android:background="@drawable/inputemailsenha"
         android:fontFamily="@font/carme"
-        android:hint="     Digite sua senha"
+        android:hint=" Digite sua senha"
         android:inputType="textEmailAddress"
         android:textColor="#60030C0C"
         android:textSize="12sp"
@@ -100,9 +74,10 @@
         android:layout_marginStart="22dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="396dp"
-        android:background="@android:color/transparent"
+        android:paddingStart="15dp"
+        android:background="@drawable/inputemailsenha"
         android:fontFamily="@font/carme"
-        android:hint="     Digite seu email"
+        android:hint="Digite seu email"
         android:inputType="textEmailAddress"
         android:textColor="#60030C0C"
         android:textSize="12sp"
@@ -115,16 +90,15 @@
         android:id="@+id/textsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="-20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="2dp"
         android:fontFamily="@font/carme"
         android:letterSpacing="0.01"
         android:text="Senha"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/rectanglesenha"
-        app:layout_constraintTop_toTopOf="@+id/rectanglesenha" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextsenha"
+        app:layout_constraintStart_toStartOf="@+id/editTextsenha" />
 
 
     <Button
@@ -198,6 +172,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btentrar" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

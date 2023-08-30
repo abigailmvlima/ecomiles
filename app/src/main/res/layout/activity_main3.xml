@@ -91,6 +91,17 @@
         android:paddingLeft="10dp"
         />
 
+    <ImageView
+        android:id="@+id/lupa"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/recfundo"
+        app:layout_constraintEnd_toEndOf="@+id/searchEditText"
+        app:srcCompat="@drawable/_icon__lupa_" />
+
+
     <TextView
         android:id="@+id/filtros"
         android:layout_width="wrap_content"
@@ -113,6 +124,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/border_menu">
+
+
 
         <ImageView
             android:id="@+id/menu"

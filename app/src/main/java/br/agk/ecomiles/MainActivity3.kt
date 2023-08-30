@@ -18,8 +18,8 @@ class MainActivity3 : AppCompatActivity() {
         // Dados de exemplo para a lista
         val dataList = listOf(
             Quadruple("Novo Kindle 11ª Geração", "Marca: Amazon","https://m.media-amazon.com/images/I/71IMo1bzDRL._AC_SX679_.jpg", "1.000 milhas"),
-            Quadruple("Título 2", "Descrição 2","https://images-na.ssl-images-amazon.com/images/G/32/kindle/journeys/PUx_1hPmoyVDyBdI/ZjUyYzMwYTEt-w372._SY232_CB598124054_.jpg", "500 milhas"),
-            Quadruple("Título 3", "Descrição 3","https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/CategoryBubbleShoveler/XCM_CUTTLE_ORIGIN_1442798_2419248_400x400_2X_pt_BR_Version_1._CB633595703_.png", "1.000 milhas")
+            Quadruple("Echo (4ª Geração)", "Marca: Amazon","https://mobilestore.ec/wp-content/uploads/2021/01/Alexa-Echo-Dot-4ta-Gen-Azul-Mobile-Store-Ecuador.png", "5.000 milhas"),
+            Quadruple("Lâmpada Inteligente Smart Color", "Marca:Elgin","https://m.media-amazon.com/images/I/616vj2QtAEL._AC_SL1500_.jpg", "800 milhas")
         )
 
         // Adiciona itens à lista dinamicamente
