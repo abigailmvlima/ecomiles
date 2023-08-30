@@ -12,7 +12,7 @@ class TelaInicial : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_telainicial)
 
         btentrar = findViewById(R.id.btentrar)
         btentrar.setOnClickListener {

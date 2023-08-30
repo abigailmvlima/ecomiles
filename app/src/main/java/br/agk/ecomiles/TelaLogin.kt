@@ -14,7 +14,7 @@ class TelaLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_telalogin)
 
         btentrar = findViewById(R.id.btentrar)
         btentrar.setOnClickListener {
