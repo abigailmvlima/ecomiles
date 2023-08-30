@@ -52,6 +52,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollprod"
         android:layout_width="408dp"
         android:layout_height="503dp"
         android:layout_marginTop="156dp"
@@ -63,8 +64,7 @@
             android:id="@+id/listContainer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-        </LinearLayout>
+            android:orientation="vertical"></LinearLayout>
     </ScrollView>
 
     <View
@@ -88,8 +88,7 @@
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/recpes"
         app:layout_constraintStart_toStartOf="@+id/recpes"
-        android:paddingLeft="10dp"
-        />
+        android:paddingLeft="10dp" />
 
     <ImageView
         android:id="@+id/lupa"
@@ -101,13 +100,12 @@
         app:layout_constraintEnd_toEndOf="@+id/searchEditText"
         app:srcCompat="@drawable/_icon__lupa_" />
 
-
     <TextView
         android:id="@+id/filtros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="18dp"
         android:autoLink="web"
         android:fontFamily="@font/carme"
         android:letterSpacing="0.01"
@@ -118,56 +116,8 @@
         app:layout_constraintEnd_toEndOf="@+id/searchEditText"
         app:layout_constraintTop_toBottomOf="@+id/searchEditText" />
 
-    <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:background="@drawable/border_menu">
-
-
-
-        <ImageView
-            android:id="@+id/menu"
-            android:layout_width="40dp"
-            android:layout_height="36dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/_icon__menu_" />
-
-
-        <ImageView
-            android:id="@+id/home"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"
-            app:srcCompat="@drawable/_icon__home_" />
-
-        <ImageView
-            android:id="@+id/pessoa"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"
-            app:srcCompat="@drawable/_icon__person_" />
-
-        <ImageView
-            android:id="@+id/car"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"
-            app:srcCompat="@drawable/_icon__cart_" />
-
-    </LinearLayout>
-
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/arrowfiltro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -175,5 +125,89 @@
         app:layout_constraintBottom_toBottomOf="@+id/recpes"
         app:layout_constraintStart_toEndOf="@+id/filtros"
         app:srcCompat="@drawable/_icon__chevron_bottom_" />
+
+    <View
+        android:id="@+id/rectools"
+        android:layout_width="410dp"
+        android:layout_height="64dp"
+        android:background="@drawable/border_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/recmenu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/rectools"
+        app:layout_constraintStart_toStartOf="@+id/rectools" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recmenu"
+        app:layout_constraintStart_toStartOf="@+id/recmenu"
+        app:srcCompat="@drawable/_icon__menu_" />
+
+    <View
+        android:id="@+id/rechome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/rectools"
+        app:layout_constraintStart_toEndOf="@+id/recmenu" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rechome"
+        app:layout_constraintStart_toStartOf="@+id/rechome"
+        app:srcCompat="@drawable/_icon__home_" />
+
+    <View
+        android:id="@+id/recperfil"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/rectools"
+        app:layout_constraintStart_toEndOf="@+id/rechome" />
+
+    <ImageView
+        android:id="@+id/perfil"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recperfil"
+        app:layout_constraintStart_toStartOf="@+id/recperfil"
+        app:srcCompat="@drawable/_icon__person_" />
+
+    <View
+        android:id="@+id/reccompra"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/rectools"
+        app:layout_constraintStart_toEndOf="@+id/recperfil" />
+
+    <ImageView
+        android:id="@+id/compra"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/reccompra"
+        app:layout_constraintStart_toStartOf="@+id/reccompra"
+        app:srcCompat="@drawable/_icon__cart_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
