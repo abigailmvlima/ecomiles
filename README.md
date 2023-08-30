@@ -12,15 +12,13 @@ https://www.figma.com/proto/X9ZTyD2c7Xrrphew0VeUpc/Ecomiles?type=design&node-id=
 # Emulador APP
 
 
-<ImageView
-        android:id="@+id/arrowfiltro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="14dp"
-        app:layout_constraintBottom_toBottomOf="@+id/recpes"
-        app:layout_constraintStart_toEndOf="@+id/filtros"
-        app:srcCompat="@drawable/_icon__chevron_bottom_" />
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/900d7b90-cf2f-4a5a-9b81-ac53f317a7ea)
+
+
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/5a0561bf-9e54-438c-be5f-4008175459bc)
+
+
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/808a65d0-b135-4d62-980a-6617655caebb)
 
         
 
