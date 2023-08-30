@@ -11,14 +11,9 @@ https://www.figma.com/proto/X9ZTyD2c7Xrrphew0VeUpc/Ecomiles?type=design&node-id=
 
 # Emulador APP
 
-
-![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/900d7b90-cf2f-4a5a-9b81-ac53f317a7ea)
-
-
-![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/5a0561bf-9e54-438c-be5f-4008175459bc)
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/19af82c7-f95c-412f-979b-dc4ca6868ba2)
 
 
-![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/808a65d0-b135-4d62-980a-6617655caebb)
 
         
 
