@@ -36,6 +36,8 @@
         app:layout_constraintStart_toEndOf="@+id/recimg"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="213dp"
@@ -71,5 +73,25 @@
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@id/descTextView"
         app:layout_constraintTop_toBottomOf="@id/descTextView" />
+
+    <ImageView
+        android:id="@+id/coracao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recdesc"
+        app:layout_constraintEnd_toEndOf="@+id/recdesc"
+        app:srcCompat="@drawable/_icon__heart_" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/coracao"
+        app:srcCompat="@drawable/_icon__plus_" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
