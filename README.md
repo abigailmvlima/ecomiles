@@ -12,6 +12,13 @@ https://www.figma.com/proto/X9ZTyD2c7Xrrphew0VeUpc/Ecomiles?type=design&node-id=
 
 ![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/19af82c7-f95c-412f-979b-dc4ca6868ba2)
 
+# Parte do Código
+
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/e2b4dbc4-3af5-4476-94ab-8b29d99d8dae)
+
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/93351ef9-d4ed-454f-a760-40ea77a34c5a)
+
+![image](https://github.com/abigailmvlima/ecomiles/assets/81816418/fef81a30-730f-47c9-bd7b-c2aff6ed973a)
 
 
         
