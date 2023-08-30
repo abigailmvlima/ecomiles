@@ -4,9 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import br.agk.ecomiles.R
 
-class MainActivity : AppCompatActivity() {
+class TelaInicial : AppCompatActivity() {
 
     private lateinit var btentrar: Button  // Declaração da variável
 
@@ -17,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         btentrar = findViewById(R.id.btentrar)
         btentrar.setOnClickListener {
-            val intent = Intent(this, MainActivity2::class.java)
+            val intent = Intent(this, TelaLogin::class.java)
             startActivity(intent)
         }
     }

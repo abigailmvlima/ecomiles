@@ -7,9 +7,10 @@ import android.text.method.LinkMovementMethod
 import android.widget.Button
 import android.widget.TextView
 
-class MainActivity2 : AppCompatActivity() {
+class TelaLogin : AppCompatActivity() {
 
     private lateinit var btentrar: Button  // Declaração da variável
+    private lateinit var btgoogle: Button  // Declaração da variável
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
@@ -17,7 +18,13 @@ class MainActivity2 : AppCompatActivity() {
 
         btentrar = findViewById(R.id.btentrar)
         btentrar.setOnClickListener {
-            val intent = Intent(this, MainActivity3::class.java)
+            val intent = Intent(this, TelaProdutos::class.java)
+            startActivity(intent)
+        }
+
+        btgoogle = findViewById(R.id.btgoogle)
+        btgoogle.setOnClickListener {
+            val intent = Intent(this, TelaProdutos::class.java)
             startActivity(intent)
         }
 
